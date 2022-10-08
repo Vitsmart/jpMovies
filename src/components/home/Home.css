@@ -1,0 +1,39 @@
+.home {
+    display:  flex;
+    background-color: lightgreen;
+}
+
+.top{
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: silver;
+    position: sticky;
+    
+}
+.topLeft{
+    flex: 2;
+}
+.topCenter{
+    flex:2;
+}
+.topRight{
+    flex: 8;
+}
+
+.topList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 8;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topListItem {
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}

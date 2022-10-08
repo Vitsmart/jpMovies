@@ -1,16 +1,19 @@
 .movie {
+  display: flex;
+  flex: 9;
+  flex-wrap: wrap;
   margin: 1rem;
   padding: 1rem;
   background-color: #800080;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
   border-radius: 12px;
   text-align: center;
-  color: white;
+  color: silver;
 }
 
 .movie h2 {
   font-size: 2rem;
-  color: #f7e702;
+  color: greenyellow;
 }
 
 .movie h3 {

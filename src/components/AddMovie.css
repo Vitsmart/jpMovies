@@ -1,5 +1,6 @@
 .control {
     margin: 1rem 0;
+    flex: 3;
   }
   
   .control label {
